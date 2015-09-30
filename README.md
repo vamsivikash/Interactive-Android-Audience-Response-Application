@@ -1,5 +1,5 @@
 # Interactive-Android-Audience-Response-Application
 ## Author : Vamsi Vikash  
-##_E-Mail : vamsivikash@gmail.com_
+###_E-Mail : vamsivikash@gmail.com_
 
-(screenshots)  
+[SCREENSHOTS](screenshots)  
