@@ -1,0 +1,71 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg1"
+    tools:context="com.example.vamsivikash.clicker.SecurityQuestion">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/securityQuestion"
+                android:id="@+id/secQuestion"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/full_question"
+                android:id="@+id/full_question"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"/>
+
+        </TableRow>
+
+        <TableRow>
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/securityAnswer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:hint="      Enter Security Answer     "
+                android:maxLines="1"
+                bootstrap:be_roundedCorners="true"
+                bootstrap:be_state="success" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reset_password"
+                android:layout_margin="10dp"
+                android:text="@string/reset"
+                bootstrap:bb_icon_right="fa-android"
+                bootstrap:bb_roundedCorners="true"
+                bootstrap:bb_type="default" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+
